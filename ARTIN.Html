@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Bootstrap </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container pt-6">
+        <h1>My First Bootstrap Page</h1>
+        <p>This is some text.</p>
+      </div> 
+      <div class="container p-3 my-3 border">
+        <h1>My First Bootstrap Page</h1>
+        <p>This container has a border and some extra padding and margins.</p>
+      </div>
+      
+      <div class="container p-3 my-3 bg-dark text-white">
+        <h1>My First Bootstrap Page</h1>
+        <p>This container has a dark background color and a white text, and some extra padding and margins.</p>
+      </div>
+      
+      <div class="container p-3 my-3 bg-primary text-white">
+        <h1>My First Bootstrap Page</h1>
+        <p>This container has a blue background color and a white text, and some extra padding and margins.</p>
+      </div>
+      <div class="container-fluid">
+        <h1>Responsive Columns</h1>
+        <p>Resize the browser window to see the effect.</p>
+        <p>The columns will automatically stack on top of each other when the screen is less than 576px wide.</p>
+        <div class="row">
+          <div class="col-sm-3" style="background-color:rgb(40, 40, 177);">.col-sm-3</div>
+          <div class="col-sm-3" style="background-color:rgb(13, 121, 11);">.col-sm-3</div>
+          <div class="col-sm-3" style="background-color:lavender;">.col-sm-3</div>
+          <div class="col-sm-3" style="background-color:rgb(128, 156, 1);">.col-sm-3</div>
+        </div>
+      </div>
+      <div class="container">
+        <h2>Button Outline</h2>
+        <button type="button" class="btn btn-outline-primary">Primary</button>
+        <button type="button" class="btn btn-outline-secondary">Secondary</button>
+        <button type="button" class="btn btn-outline-success">Success</button>
+        <button type="button" class="btn btn-outline-info">Info</button>
+        <button type="button" class="btn btn-outline-warning">Warning</button>
+        <button type="button" class="btn btn-outline-danger">Danger</button>
+        <button type="button" class="btn btn-outline-dark">Dark</button>
+        <button type="button" class="btn btn-outline-light text-dark">Light</button>
+      </div>
+     
+<div class="container">
+    <h2>Spinner Buttons</h2>
+    <p>Add spinners to buttons:</p>
+                                          
+    <button class="btn btn-primary">
+      <span class="spinner-border spinner-border-sm"></span>
+    </button>
+  
+    <button class="btn btn-primary">
+      <span class="spinner-border spinner-border-sm"></span>
+      Loading..
+    </button>
+    
+    <button class="btn btn-primary" disabled>
+      <span class="spinner-border spinner-border-sm"></span>
+      Loading..
+    </button>
+    
+    <button class="btn btn-primary" disabled>
+      <span class="spinner-grow spinner-grow-sm"></span>
+      Loading..
+    </button>
+  </div> 
+</body>
+</html>
